@@ -10,7 +10,7 @@
 #define PCAP_TIMEOUT 200
 #define PCAP_SNAPSHOT 1024
 
-static int count;
+static int count=0;
 
 void packet_view(unsigned char* user, const struct pcap_pkthdr* Pcap, const unsigned char* p);
 
